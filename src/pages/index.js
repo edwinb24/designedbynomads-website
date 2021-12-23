@@ -1,17 +1,17 @@
-import Footer from '@components/Layout/Footer/Footer.tsx'
-import Header from '@components/Layout/Header/Header.tsx'
+import { Footer } from '@/components/Layout/Footer/Footer.tsx'
+import { Header } from '@/components/Layout/Header/Header.tsx'
 import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Nomada - Marketing & Digital Agency</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header />
         <p className="description">
           Get started by editinaaaaaa <code>pages/index.js</code>
         </p>
