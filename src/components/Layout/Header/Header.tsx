@@ -1,7 +1,7 @@
-import { imageSrc } from '@/constants/sources';
-import Image from 'next/image';
-import React from "react";
-import { MainNavigation } from './mainNavigation/MainNavigation';
+import { imageSrc } from '@/constants/sources'
+import Image from 'next/image'
+import React from "react"
+import { MainNavigation } from './mainNavigation/MainNavigation'
 
 const LOGO = "default-image.jpg"
 
