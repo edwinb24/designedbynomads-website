@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Hamburger = () => {
   return (
-    <div className={styles.hamburgerIcon}>
-      <div className={styles.bar1}></div>
-      <div className={styles.bar2}></div>
-      <div className={styles.bar3}></div>
+    <div className="hamburger-icon">
+      <div className="bar1"></div>
+      <div className="bar2"></div>
+      <div className="bar3"></div>
     </div>
   )
 }

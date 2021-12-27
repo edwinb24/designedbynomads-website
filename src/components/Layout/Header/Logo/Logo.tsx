@@ -4,7 +4,7 @@ import React from 'react'
 
 const LOGO = 'default-image.jpg'
 
-export const Header = () => {
+export const Logo = () => {
   return (
     <div className="logo">
       <Image

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Hamburger } from './Hamburger/Hamburger'
-import styles from './MainNavigation.module.scss'
 import { NavMainNavigation } from './NavMainNavigation/NavMainNavigation'
 
 function toogleHamburgerIcon() {
@@ -10,26 +9,28 @@ function toogleHamburgerIcon() {
 
 export const MainNavigation = () => {
   return (
-    <div className={styles.mainNavigation}>
+    <div className="header_navigation">
       <input
         type="checkbox"
-        id="toggleMainMenu"
+        id="toggle-main-menu"
         role="button"
         aria-label="Toggle Menu"
       />
       <label
-        className={styles.menuOn}
-        htmlFor="toggleMainMenu"
+        className="menu-on"
+        htmlFor="toggle-main-menu"
         onClick={toogleHamburgerIcon}
       >
         <Hamburger />
       </label>
-      <NavMainNavigation />
       <label
-        className={styles.menuOff}
-        htmlFor="toggleMainMenu"
+        className="menu-off"
+        htmlFor="toggle-main-menu"
         onClick={toogleHamburgerIcon}
       ></label>
+      <div className="header_menu">
+        <NavMainNavigation />
+      </div>
     </div>
   )
 }

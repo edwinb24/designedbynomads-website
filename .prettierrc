@@ -5,9 +5,11 @@
     {
       "files": "*",
       "options": {
-        "semi": false
+        "semi": false,
+        "sort-imports": false
       }
-    }],
+    }
+  ],
   "prettier.trailingComma": "all",
   "prettier.arrowParens": "avoid"
 }
