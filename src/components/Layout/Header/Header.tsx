@@ -4,7 +4,7 @@ import { MainNavigation } from './mainNavigation/MainNavigation'
 
 export const Header = () => {
   return (
-    <header className="main-header">
+    <header className="main-header  ">
       <Logo />
       <MainNavigation />
     </header>
