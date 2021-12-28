@@ -6,7 +6,6 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="description" content="Nomada Site" />
-          <meta charset="uft-8" />
           {/* TODO - Remove this robot link */}
           <meta name="robots" content="noindex, nofollow" />
           <link rel="stylesheet" href="/static/css/lazyHeader.css" />
