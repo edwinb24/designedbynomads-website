@@ -8,7 +8,10 @@ class MyDocument extends Document {
           <meta name="description" content="Nomada Site" />
           {/* TODO - Remove this robot link */}
           <meta name="robots" content="noindex, nofollow" />
-          <link rel="stylesheet" href="/static/css/lazyHeader.css" />
+          {/* --- Lazy Styles --- */}
+          <noscript id="render-onload">
+            <link rel="stylesheet" href="/static/css/lazyHeader.css" />
+          </noscript>
         </Head>
         <body>
           <Main />
