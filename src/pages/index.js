@@ -1,5 +1,6 @@
 import { Footer } from '@/components/Layout/Footer/Footer.tsx'
 import { Header } from '@/components/Layout/Header/Header.tsx'
+import { localPath } from '@/constants/sources'
 import Head from 'next/head'
 import Script from 'next/script'
 
@@ -11,7 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Script strategy="afterInteractive" src="/static/hello.js" />
+      <Script
+        strategy="afterInteractive"
+        src={`${localPath}/scripts/stylesLazyLoading.js`}
+      />
 
       <main>
         <Header />
