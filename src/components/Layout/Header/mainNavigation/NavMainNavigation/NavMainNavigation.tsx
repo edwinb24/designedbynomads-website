@@ -1,17 +1,23 @@
-import React from 'react'
+import Link from 'next/link'
 
 export const NavMainNavigation = () => {
   return (
     <div className="menu_main_menu_wrapper">
       <nav aria-label="Main Navigation">
         <div role="button">
-          <a href="#">Experience</a>
+          <Link href="/">
+            <a>Experience</a>
+          </Link>
         </div>
         <div role="button">
-          <a href="#">Portfolio</a>
+          <Link href="/">
+            <a>Experience</a>
+          </Link>
         </div>
         <div role="button">
-          <a href="#">Tutorials</a>
+          <Link href="/">
+            <a>Experienceaaa</a>
+          </Link>
         </div>
       </nav>
     </div>
