@@ -1,5 +1,5 @@
 .main-header {
-  background-color: pink;
+  background-color: var(--main-header-bg-color);
   display: grid;
   grid-template-areas: 'logo header_menu';
   padding-top: 15px;

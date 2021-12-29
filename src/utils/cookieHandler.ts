@@ -1,4 +1,4 @@
-import { cookieExpiration } from '@/constants/sources'
+import { cookieExpiration } from '@/constants/values'
 
 export const setCookie = (cname, cvalue, exdays = cookieExpiration) => {
   const d = new Date()
