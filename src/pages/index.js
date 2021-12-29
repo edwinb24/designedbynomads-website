@@ -5,11 +5,14 @@ import Head from 'next/head'
 import Script from 'next/script'
 
 export default function Home() {
+  ///This is how to change styles based on cookie
+  const stylesLink = <link rel="stylesheet" href="/static/css/lazyTest.css" />
   return (
     <div className="container">
       <Head>
         <title>Nomada - Marketing & Digital Agency</title>
         <link rel="icon" href="/favicon.ico" />
+        {stylesLink}
       </Head>
 
       <Script

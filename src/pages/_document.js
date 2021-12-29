@@ -6,6 +6,14 @@ class MyDocument extends Document {
     return { ...initialProps }
   }
 
+  /**
+   * TODO
+   * Where I left:
+   * - Finish implementing cookie and make the loading stylesheet with
+   * the variables in index.js change based on the cookie.
+   * - The rest of the styles should be in the lazyloading styles.
+   */
+
   render() {
     return (
       <Html>
